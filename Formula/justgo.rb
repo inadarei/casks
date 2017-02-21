@@ -1,6 +1,6 @@
 require 'formula'
 
-class JustGo < Formula
+class Justgo < Formula
   desc "Quickly create a skeleton project for Go microservices"
   homepage "https://github.com/inadarei/justgo"
   version "1.0.1"
@@ -13,5 +13,4 @@ class JustGo < Formula
       bin.install cmd/justgo/build/justgo
       rm_rf Dir['**/*']
   end
-
 end
