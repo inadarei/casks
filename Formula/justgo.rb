@@ -10,7 +10,7 @@ class Justgo < Formula
   end
 
   def install
-      bin.install cmd/justgo/build/justgo
+      bin.install "cmd/justgo/build/justgo"
       rm_rf Dir['**/*']
   end
 end
