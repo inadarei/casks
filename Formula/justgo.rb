@@ -6,7 +6,7 @@ class Justgo < Formula
   version "1.1.3"
   if OS.mac?
     url "https://github.com/inadarei/justgo/archive/v1.1.3.tar.gz"
-    sha256 "a10a5e54658bbbb3e56ad701ff0ef0cf15ed18602f63af15ce32492d8ade5e7c"
+    sha256 "d7efb567a0e8f2176d7b79b8c43809e0e30e2e586d98fcc9ecd1d7ec34fd5c91"
   end
 
   def install
