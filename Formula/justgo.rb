@@ -3,9 +3,9 @@ require 'formula'
 class Justgo < Formula
   desc "Quickly create a skeleton project for Go microservices"
   homepage "https://github.com/inadarei/justgo"
-  version "1.1.5"
+  version "1.2.0"
   if OS.mac?
-    url "https://github.com/inadarei/justgo/archive/v1.1.5.tar.gz"
+    url "https://github.com/inadarei/justgo/archive/v1.2.0.tar.gz"
     sha256 "87edee94485b7d8cbb44f092522eb23b457698b0b33aee60364df78650c94a0b"
   end
 
